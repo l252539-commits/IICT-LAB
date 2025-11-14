@@ -1,7 +1,7 @@
 # IICT-LAB
 # EcoDrone (Simple Website)
 
-This is a very simple responsive website made with only HTML and CSS.  
+ This is a very simple responsive website made with only HTML and CSS.  
 It is for a fictional product called EcoDrone.
 
 ## Includes:
