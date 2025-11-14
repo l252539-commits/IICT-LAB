@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 }
-header {
+header
+{
     text-align: center;
     background: lightgreen;
     padding: 15px;
@@ -64,3 +65,4 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
