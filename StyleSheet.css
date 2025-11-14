@@ -1,28 +1,38 @@
-﻿body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-header
-{
+
+header {
     text-align: center;
     background: lightgreen;
     padding: 15px;
 }
+
+header img {
+    width: 80px; 
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
 main {
     padding: 15px;
     display: grid;
     gap: 15px;
 }
+
 .box {
     background: #d0ffd0;
     padding: 10px;
     border: 1px solid #8bcf8b;
 }
 
-    .box:hover {
-        background: #baffba;
-    }
+.box:hover {
+    background: #baffba;
+}
+
 .features {
     display: flex;
     gap: 10px;
@@ -33,6 +43,7 @@ main {
     padding: 10px;
     border: 1px solid #cccccc;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -43,10 +54,19 @@ input, textarea, select {
     width: 100%;
     padding: 5px;
 }
+
 button:active {
     background: #5aa15a;
     color: white;
 }
+
+main img {
+    width: 90%;       
+    max-width: 400px;  
+    height: auto;
+    display: block;
+    margin: 20px auto; 
+
 footer {
     text-align: center;
     padding: 10px;
@@ -58,11 +78,18 @@ footer {
     main {
         grid-template-columns: 1fr 1fr;
     }
+
+    main img {
+        width: 70%;
+    }
 }
 
 @media (min-width: 900px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
-}
 
+    main img {
+        width: 50%;
+    }
+}
